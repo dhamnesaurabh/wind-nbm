@@ -3,7 +3,7 @@
 **Avathon AI/ML Hiring Challenge · Track C (Classical ML / Forecasting) · Scenario S4 (Forecasting with anomaly detection), applied to wind energy**
 Author: Saurabh Dhamne
 
-> 5-minute walkthrough video: [`https://www.loom.com/share/6c9e035eb191468abacc43b47d6babab`]
+> 5-minute walkthrough video: [Watch on Loom](https://www.loom.com/share/6c9e035eb191468abacc43b47d6babab)
 > Write-up (PDF): [`writeup/Saurabh_Dhamne_TrackC_writeup.pdf`](writeup/Saurabh_Dhamne_TrackC_writeup.pdf)
 > Every design decision, alternative and rejection: [`docs/DECISIONS.md`](docs/DECISIONS.md)
 
