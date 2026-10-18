@@ -132,18 +132,4 @@ writeup/                   2-page PDF write-up
 - **Forecasting beyond about 1 hour needs NWP weather forecasts.** Turbine history alone has a low ceiling.
 - **One year of data,** so seasonal effects cannot be validated across years.
 
-## Suggested commit sequence
-The assignment asks for iterative history. Build the repo in this order, one commit per step:
 
-1. Project skeleton, `config.py`, data download + checksum
-2. Data loading, regular grid, physical state labels
-3. EDA findings (manufacturer gap, seasonal effect)
-4. Normal-operation filter + baseline curves (manufacturer, IEC, logistic)
-5. LightGBM NBM + feature ablation + MLflow tracking
-6. SHAP explainability + error-by-wind-bin analysis
-7. Forecasting: persistence, Ridge, LightGBM level model (lost to persistence)
-8. Forecasting: switch to Δ-target, multi-horizon, backtest
-9. Anomaly detection: standardiser + CUSUM + calibration
-10. Fault injection, k selection on validation, Isolation Forest comparison
-11. Rolling-bias ablation (rejected), natural event analysis
-12. Business impact, figures, README, decision log, write-up
