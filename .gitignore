@@ -1,0 +1,9 @@
+data/raw/*.csv
+mlflow.db
+mlruns/
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+venv/
+.idea/
